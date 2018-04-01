@@ -26571,48 +26571,6 @@ Circuits used for anti-aliasing all sampled signals. May need to be split across
 <busses>
 </busses>
 <nets>
-<net name="+3V3_PT" class="0">
-<segment>
-<pinref part="IC6" gate="G$" pin="+VS"/>
-<wire x1="76.2" y1="157.48" x2="76.2" y2="162.56" width="0.1524" layer="91"/>
-<label x="76.2" y="167.64" size="1.778" layer="95"/>
-<pinref part="C18" gate="G$1" pin="1"/>
-<wire x1="76.2" y1="162.56" x2="76.2" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="160.02" x2="91.44" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="162.56" x2="76.2" y2="162.56" width="0.1524" layer="91"/>
-<junction x="76.2" y="162.56"/>
-</segment>
-<segment>
-<pinref part="IC7" gate="G$" pin="+VS"/>
-<wire x1="185.42" y1="160.02" x2="185.42" y2="165.1" width="0.1524" layer="91"/>
-<label x="185.42" y="170.18" size="1.778" layer="95"/>
-<pinref part="C21" gate="G$1" pin="1"/>
-<wire x1="185.42" y1="165.1" x2="185.42" y2="170.18" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="162.56" x2="200.66" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="165.1" x2="185.42" y2="165.1" width="0.1524" layer="91"/>
-<junction x="185.42" y="165.1"/>
-</segment>
-<segment>
-<pinref part="IC8" gate="G$" pin="+VS"/>
-<wire x1="78.74" y1="104.14" x2="78.74" y2="109.22" width="0.1524" layer="91"/>
-<label x="78.74" y="114.3" size="1.778" layer="95"/>
-<pinref part="C24" gate="G$1" pin="1"/>
-<wire x1="78.74" y1="109.22" x2="78.74" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="106.68" x2="93.98" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="109.22" x2="78.74" y2="109.22" width="0.1524" layer="91"/>
-<junction x="78.74" y="109.22"/>
-</segment>
-<segment>
-<pinref part="IC9" gate="G$" pin="+VS"/>
-<wire x1="182.88" y1="106.68" x2="182.88" y2="111.76" width="0.1524" layer="91"/>
-<label x="182.88" y="116.84" size="1.778" layer="95"/>
-<pinref part="C27" gate="G$1" pin="1"/>
-<wire x1="182.88" y1="111.76" x2="182.88" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="198.12" y1="109.22" x2="198.12" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="198.12" y1="111.76" x2="182.88" y2="111.76" width="0.1524" layer="91"/>
-<junction x="182.88" y="111.76"/>
-</segment>
-</net>
 <net name="GND" class="0">
 <segment>
 <pinref part="IC6" gate="G$" pin="-VS"/>
@@ -26841,6 +26799,48 @@ Circuits used for anti-aliasing all sampled signals. May need to be split across
 <pinref part="R50" gate="G$1" pin="2"/>
 <wire x1="119.38" y1="111.76" x2="119.38" y2="104.14" width="0.1524" layer="91"/>
 <label x="119.38" y="111.76" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="+5V" class="0">
+<segment>
+<pinref part="IC6" gate="G$" pin="+VS"/>
+<wire x1="76.2" y1="157.48" x2="76.2" y2="162.56" width="0.1524" layer="91"/>
+<label x="76.2" y="167.64" size="1.778" layer="95"/>
+<pinref part="C18" gate="G$1" pin="1"/>
+<wire x1="76.2" y1="162.56" x2="76.2" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="160.02" x2="91.44" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="162.56" x2="76.2" y2="162.56" width="0.1524" layer="91"/>
+<junction x="76.2" y="162.56"/>
+</segment>
+<segment>
+<pinref part="IC7" gate="G$" pin="+VS"/>
+<wire x1="185.42" y1="160.02" x2="185.42" y2="165.1" width="0.1524" layer="91"/>
+<label x="185.42" y="170.18" size="1.778" layer="95"/>
+<pinref part="C21" gate="G$1" pin="1"/>
+<wire x1="185.42" y1="165.1" x2="185.42" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="162.56" x2="200.66" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="165.1" x2="185.42" y2="165.1" width="0.1524" layer="91"/>
+<junction x="185.42" y="165.1"/>
+</segment>
+<segment>
+<pinref part="IC9" gate="G$" pin="+VS"/>
+<wire x1="182.88" y1="106.68" x2="182.88" y2="111.76" width="0.1524" layer="91"/>
+<label x="182.88" y="116.84" size="1.778" layer="95"/>
+<pinref part="C27" gate="G$1" pin="1"/>
+<wire x1="182.88" y1="111.76" x2="182.88" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="109.22" x2="198.12" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="111.76" x2="182.88" y2="111.76" width="0.1524" layer="91"/>
+<junction x="182.88" y="111.76"/>
+</segment>
+<segment>
+<pinref part="IC8" gate="G$" pin="+VS"/>
+<wire x1="78.74" y1="104.14" x2="78.74" y2="109.22" width="0.1524" layer="91"/>
+<label x="78.74" y="114.3" size="1.778" layer="95"/>
+<pinref part="C24" gate="G$1" pin="1"/>
+<wire x1="78.74" y1="109.22" x2="78.74" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="106.68" x2="93.98" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="109.22" x2="78.74" y2="109.22" width="0.1524" layer="91"/>
+<junction x="78.74" y="109.22"/>
 </segment>
 </net>
 </nets>
@@ -27196,9 +27196,16 @@ All the external connectors used on the board.</description>
 </net>
 <net name="+12V" class="0">
 <segment>
-<pinref part="PT_123_IN" gate="-6" pin="SK"/>
-<wire x1="30.48" y1="96.52" x2="40.64" y2="96.52" width="0.1524" layer="91"/>
-<label x="40.64" y="96.52" size="1.778" layer="95"/>
+<pinref part="PWR_OUT1" gate="G$2" pin="2"/>
+<wire x1="78.74" y1="162.56" x2="86.36" y2="162.56" width="0.1524" layer="91"/>
+<label x="86.36" y="162.56" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="+10V" class="0">
+<segment>
+<pinref part="PWR_OUT1" gate="G$1" pin="1"/>
+<wire x1="78.74" y1="165.1" x2="86.36" y2="165.1" width="0.1524" layer="91"/>
+<label x="86.36" y="165.1" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="PT_123_IN" gate="-2" pin="SK"/>
@@ -27211,21 +27218,14 @@ All the external connectors used on the board.</description>
 <label x="40.64" y="106.68" size="1.778" layer="95"/>
 </segment>
 <segment>
+<pinref part="PT_123_IN" gate="-6" pin="SK"/>
+<wire x1="30.48" y1="96.52" x2="40.64" y2="96.52" width="0.1524" layer="91"/>
+<label x="40.64" y="96.52" size="1.778" layer="95"/>
+</segment>
+<segment>
 <pinref part="TC_PT4_IN" gate="-6" pin="SK"/>
 <wire x1="30.48" y1="66.04" x2="40.64" y2="66.04" width="0.1524" layer="91"/>
 <label x="40.64" y="66.04" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="PWR_OUT1" gate="G$2" pin="2"/>
-<wire x1="78.74" y1="162.56" x2="86.36" y2="162.56" width="0.1524" layer="91"/>
-<label x="86.36" y="162.56" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="+10V" class="0">
-<segment>
-<pinref part="PWR_OUT1" gate="G$1" pin="1"/>
-<wire x1="78.74" y1="165.1" x2="86.36" y2="165.1" width="0.1524" layer="91"/>
-<label x="86.36" y="165.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GND" class="0">
