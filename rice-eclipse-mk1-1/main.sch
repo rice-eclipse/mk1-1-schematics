@@ -27774,7 +27774,7 @@ A schematic for amplifying signals from the load cells. Additional Level-Shiftin
 <instance part="IC5" gate="G$1" x="76.2" y="137.16"/>
 <instance part="RG1" gate="G$1" x="60.96" y="137.16" rot="R90"/>
 <instance part="RF1" gate="G$1" x="68.58" y="111.76" rot="R180"/>
-<instance part="C30" gate="G$1" x="96.52" y="139.7"/>
+<instance part="C30" gate="G$1" x="96.52" y="129.54"/>
 <instance part="RZ1" gate="G$1" x="40.64" y="132.08"/>
 <instance part="C31" gate="G$1" x="109.22" y="152.4"/>
 <instance part="JP4" gate="G$1" x="33.02" y="162.56" rot="R90"/>
@@ -27813,7 +27813,7 @@ A schematic for amplifying signals from the load cells. Additional Level-Shiftin
 <pinref part="RZ1" gate="G$1" pin="A"/>
 <wire x1="40.64" y1="124.46" x2="40.64" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="C30" gate="G$1" pin="2"/>
-<wire x1="96.52" y1="134.62" x2="96.52" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="124.46" x2="96.52" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="121.92" x2="76.2" y2="121.92" width="0.1524" layer="91"/>
 <junction x="76.2" y="121.92"/>
 <pinref part="RPD1" gate="G$1" pin="2"/>
@@ -27874,7 +27874,7 @@ A schematic for amplifying signals from the load cells. Additional Level-Shiftin
 <wire x1="33.02" y1="160.02" x2="40.64" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="160.02" x2="76.2" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="C30" gate="G$1" pin="1"/>
-<wire x1="96.52" y1="142.24" x2="96.52" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="132.08" x2="96.52" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="160.02" x2="83.82" y2="160.02" width="0.1524" layer="91"/>
 <junction x="83.82" y="160.02"/>
 <junction x="40.64" y="160.02"/>
