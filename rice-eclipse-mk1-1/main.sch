@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.7.1">
+<eagle version="8.7.0">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -27447,26 +27447,22 @@ grid 2.54 mm</description>
 <part name="RF1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" value="20K"/>
 <part name="C30" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1UF"/>
 <part name="RZ1" library="pot" library_urn="urn:adsk.eagle:library:331" deviceset="TRIM_US-" device="S64W" package3d_urn="urn:adsk.eagle:package:22708/1"/>
-<part name="C31" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="6.8nF"/>
 <part name="JP4" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="IC10" library="microchip-extra" deviceset="MCP6N11" device="R"/>
 <part name="RG2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" value="200"/>
 <part name="RF2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" value="20K"/>
 <part name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1UF"/>
 <part name="RZ2" library="pot" library_urn="urn:adsk.eagle:library:331" deviceset="TRIM_US-" device="S64W" package3d_urn="urn:adsk.eagle:package:22708/1"/>
-<part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="6.8nF"/>
 <part name="IC11" library="microchip-extra" deviceset="MCP6N11" device="R"/>
 <part name="RG3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" value="200"/>
 <part name="RF3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" value="20K"/>
 <part name="C32" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1UF"/>
 <part name="RZ3" library="pot" library_urn="urn:adsk.eagle:library:331" deviceset="TRIM_US-" device="S64W" package3d_urn="urn:adsk.eagle:package:22708/1"/>
-<part name="C33" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="6.8nF"/>
 <part name="IC12" library="microchip-extra" deviceset="MCP6N11" device="R"/>
 <part name="RG4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" value="200"/>
 <part name="RF4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" value="20K"/>
 <part name="C34" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1UF"/>
 <part name="RZ4" library="pot" library_urn="urn:adsk.eagle:library:331" deviceset="TRIM_US-" device="S64W" package3d_urn="urn:adsk.eagle:package:22708/1"/>
-<part name="C35" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="6.8nF"/>
 <part name="RPD1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" value="20K"/>
 <part name="LC_EN/CAL" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="U$5" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="IRF740" device="" package3d_urn="urn:adsk.eagle:package:29484/3"/>
@@ -27776,26 +27772,22 @@ A schematic for amplifying signals from the load cells. Additional Level-Shiftin
 <instance part="RF1" gate="G$1" x="68.58" y="111.76" rot="R180"/>
 <instance part="C30" gate="G$1" x="96.52" y="129.54"/>
 <instance part="RZ1" gate="G$1" x="40.64" y="132.08"/>
-<instance part="C31" gate="G$1" x="109.22" y="152.4"/>
 <instance part="JP4" gate="G$1" x="33.02" y="162.56" rot="R90"/>
 <instance part="IC10" gate="G$1" x="185.42" y="137.16"/>
 <instance part="RG2" gate="G$1" x="170.18" y="137.16" rot="R90"/>
 <instance part="RF2" gate="G$1" x="177.8" y="111.76" rot="R180"/>
 <instance part="C12" gate="G$1" x="205.74" y="147.32"/>
 <instance part="RZ2" gate="G$1" x="149.86" y="132.08"/>
-<instance part="C13" gate="G$1" x="218.44" y="152.4"/>
 <instance part="IC11" gate="G$1" x="76.2" y="66.04"/>
 <instance part="RG3" gate="G$1" x="60.96" y="66.04" rot="R90"/>
 <instance part="RF3" gate="G$1" x="68.58" y="40.64" rot="R180"/>
 <instance part="C32" gate="G$1" x="96.52" y="76.2"/>
 <instance part="RZ3" gate="G$1" x="40.64" y="60.96"/>
-<instance part="C33" gate="G$1" x="109.22" y="81.28"/>
 <instance part="IC12" gate="G$1" x="185.42" y="66.04"/>
 <instance part="RG4" gate="G$1" x="170.18" y="66.04" rot="R90"/>
 <instance part="RF4" gate="G$1" x="177.8" y="40.64" rot="R180"/>
 <instance part="C34" gate="G$1" x="205.74" y="76.2"/>
 <instance part="RZ4" gate="G$1" x="149.86" y="60.96"/>
-<instance part="C35" gate="G$1" x="218.44" y="81.28"/>
 <instance part="RPD1" gate="G$1" x="114.3" y="129.54" rot="R270"/>
 <instance part="LC_EN/CAL" gate="G$1" x="86.36" y="152.4"/>
 </instances>
@@ -27947,11 +27939,6 @@ A schematic for amplifying signals from the load cells. Additional Level-Shiftin
 <pinref part="IC5" gate="G$1" pin="FG"/>
 <pinref part="RG1" gate="G$1" pin="2"/>
 <wire x1="60.96" y1="142.24" x2="66.04" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="C31" gate="G$1" pin="1"/>
-<wire x1="109.22" y1="154.94" x2="109.22" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="165.1" x2="66.04" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="165.1" x2="66.04" y2="142.24" width="0.1524" layer="91"/>
-<junction x="66.04" y="142.24"/>
 <wire x1="60.96" y1="142.24" x2="48.26" y2="142.24" width="0.1524" layer="91"/>
 <junction x="60.96" y="142.24"/>
 <wire x1="48.26" y1="142.24" x2="48.26" y2="111.76" width="0.1524" layer="91"/>
@@ -27974,11 +27961,6 @@ A schematic for amplifying signals from the load cells. Additional Level-Shiftin
 <pinref part="IC10" gate="G$1" pin="FG"/>
 <pinref part="RG2" gate="G$1" pin="2"/>
 <wire x1="170.18" y1="142.24" x2="175.26" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="C13" gate="G$1" pin="1"/>
-<wire x1="218.44" y1="154.94" x2="218.44" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="165.1" x2="175.26" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="165.1" x2="175.26" y2="142.24" width="0.1524" layer="91"/>
-<junction x="175.26" y="142.24"/>
 <wire x1="170.18" y1="142.24" x2="157.48" y2="142.24" width="0.1524" layer="91"/>
 <junction x="170.18" y="142.24"/>
 <wire x1="157.48" y1="142.24" x2="157.48" y2="111.76" width="0.1524" layer="91"/>
@@ -28001,11 +27983,6 @@ A schematic for amplifying signals from the load cells. Additional Level-Shiftin
 <pinref part="IC11" gate="G$1" pin="FG"/>
 <pinref part="RG3" gate="G$1" pin="2"/>
 <wire x1="60.96" y1="71.12" x2="66.04" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="C33" gate="G$1" pin="1"/>
-<wire x1="109.22" y1="83.82" x2="109.22" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="93.98" x2="66.04" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="93.98" x2="66.04" y2="71.12" width="0.1524" layer="91"/>
-<junction x="66.04" y="71.12"/>
 <wire x1="60.96" y1="71.12" x2="48.26" y2="71.12" width="0.1524" layer="91"/>
 <junction x="60.96" y="71.12"/>
 <wire x1="48.26" y1="71.12" x2="48.26" y2="40.64" width="0.1524" layer="91"/>
@@ -28028,11 +28005,6 @@ A schematic for amplifying signals from the load cells. Additional Level-Shiftin
 <pinref part="IC12" gate="G$1" pin="FG"/>
 <pinref part="RG4" gate="G$1" pin="2"/>
 <wire x1="170.18" y1="71.12" x2="175.26" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="C35" gate="G$1" pin="1"/>
-<wire x1="218.44" y1="83.82" x2="218.44" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="93.98" x2="175.26" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="93.98" x2="175.26" y2="71.12" width="0.1524" layer="91"/>
-<junction x="175.26" y="71.12"/>
 <wire x1="170.18" y1="71.12" x2="157.48" y2="71.12" width="0.1524" layer="91"/>
 <junction x="170.18" y="71.12"/>
 <wire x1="157.48" y1="71.12" x2="157.48" y2="40.64" width="0.1524" layer="91"/>
@@ -28125,10 +28097,6 @@ A schematic for amplifying signals from the load cells. Additional Level-Shiftin
 <segment>
 <pinref part="IC5" gate="G$1" pin="OUT"/>
 <wire x1="88.9" y1="111.76" x2="88.9" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="C31" gate="G$1" pin="2"/>
-<wire x1="88.9" y1="137.16" x2="109.22" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="137.16" x2="109.22" y2="147.32" width="0.1524" layer="91"/>
-<junction x="88.9" y="137.16"/>
 <pinref part="RF1" gate="G$1" pin="1"/>
 <wire x1="73.66" y1="111.76" x2="88.9" y2="111.76" width="0.1524" layer="91"/>
 <label x="109.22" y="139.7" size="1.778" layer="95"/>
@@ -28138,36 +28106,24 @@ A schematic for amplifying signals from the load cells. Additional Level-Shiftin
 <segment>
 <pinref part="IC10" gate="G$1" pin="OUT"/>
 <wire x1="198.12" y1="111.76" x2="198.12" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="C13" gate="G$1" pin="2"/>
-<wire x1="198.12" y1="137.16" x2="218.44" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="137.16" x2="218.44" y2="147.32" width="0.1524" layer="91"/>
-<junction x="198.12" y="137.16"/>
 <pinref part="RF2" gate="G$1" pin="1"/>
 <wire x1="182.88" y1="111.76" x2="198.12" y2="111.76" width="0.1524" layer="91"/>
-<label x="218.44" y="139.7" size="1.778" layer="95"/>
+<label x="198.12" y="139.7" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LC3_PREC" class="0">
 <segment>
 <pinref part="IC11" gate="G$1" pin="OUT"/>
 <wire x1="88.9" y1="40.64" x2="88.9" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="C33" gate="G$1" pin="2"/>
-<wire x1="88.9" y1="66.04" x2="109.22" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="66.04" x2="109.22" y2="76.2" width="0.1524" layer="91"/>
-<junction x="88.9" y="66.04"/>
 <pinref part="RF3" gate="G$1" pin="1"/>
 <wire x1="73.66" y1="40.64" x2="88.9" y2="40.64" width="0.1524" layer="91"/>
-<label x="109.22" y="68.58" size="1.778" layer="95"/>
+<label x="91.44" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LC4_PREC" class="0">
 <segment>
 <pinref part="IC12" gate="G$1" pin="OUT"/>
 <wire x1="198.12" y1="40.64" x2="198.12" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="C35" gate="G$1" pin="2"/>
-<wire x1="198.12" y1="66.04" x2="218.44" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="66.04" x2="218.44" y2="76.2" width="0.1524" layer="91"/>
-<junction x="198.12" y="66.04"/>
 <pinref part="RF4" gate="G$1" pin="1"/>
 <wire x1="182.88" y1="40.64" x2="198.12" y2="40.64" width="0.1524" layer="91"/>
 <label x="218.44" y="68.58" size="1.778" layer="95"/>
