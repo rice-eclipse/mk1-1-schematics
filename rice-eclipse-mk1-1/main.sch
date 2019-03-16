@@ -27531,6 +27531,17 @@ grid 2.54 mm</description>
 <part name="U$1" library="transistor-fet-extra" deviceset="2N7000" device=""/>
 <part name="R69" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805"/>
 <part name="R70" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805"/>
+<part name="D7" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4004" device="" package3d_urn="urn:adsk.eagle:package:43336/1"/>
+<part name="U2" library="SLIDE_SW" deviceset="1101M2S3CQE2" device=""/>
+<part name="U$5" library="transistor-fet-extra" deviceset="2N7000" device=""/>
+<part name="R68" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" value="10k"/>
+<part name="R71" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" value="500k"/>
+<part name="D8" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4004" device="" package3d_urn="urn:adsk.eagle:package:43336/1"/>
+<part name="U$7" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="IRF740" device="" package3d_urn="urn:adsk.eagle:package:29484/3"/>
+<part name="D9" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4004" device="" package3d_urn="urn:adsk.eagle:package:43336/1"/>
+<part name="R72" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805"/>
+<part name="R73" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805"/>
+<part name="R74" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" value="0.005"/>
 </parts>
 <sheets>
 <sheet>
@@ -29221,9 +29232,9 @@ A circuit that controls the driver for the solenoid.</description>
 <attribute name="NAME" x="195.0974" y="157.48" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="197.8914" y="160.02" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="D4" gate="1" x="83.82" y="73.66" smashed="yes" rot="R90">
-<attribute name="NAME" x="83.3374" y="76.2" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="86.1314" y="76.2" size="1.778" layer="96" rot="R90"/>
+<instance part="D4" gate="1" x="83.82" y="86.36" smashed="yes" rot="R90">
+<attribute name="NAME" x="83.3374" y="88.9" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="86.1314" y="88.9" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R9" gate="G$1" x="137.16" y="58.42" smashed="yes">
 <attribute name="NAME" x="133.35" y="59.9186" size="1.778" layer="95"/>
@@ -29237,9 +29248,9 @@ A circuit that controls the driver for the solenoid.</description>
 <attribute name="NAME" x="172.2374" y="81.28" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="175.0314" y="81.28" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R66" gate="G$1" x="114.3" y="157.48" smashed="yes" rot="R90">
-<attribute name="NAME" x="112.8014" y="153.67" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="117.602" y="153.67" size="1.778" layer="96" rot="R90"/>
+<instance part="R66" gate="G$1" x="106.68" y="157.48" smashed="yes" rot="R90">
+<attribute name="NAME" x="105.1814" y="153.67" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="109.982" y="153.67" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R67" gate="G$1" x="215.9" y="157.48" smashed="yes" rot="R90">
 <attribute name="NAME" x="214.4014" y="153.67" size="1.778" layer="95" rot="R90"/>
@@ -29261,9 +29272,52 @@ A circuit that controls the driver for the solenoid.</description>
 <attribute name="NAME" x="183.9214" y="120.65" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="188.722" y="120.65" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R70" gate="G$1" x="83.82" y="124.46" smashed="yes" rot="R90">
-<attribute name="NAME" x="82.3214" y="120.65" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="87.122" y="120.65" size="1.778" layer="96" rot="R90"/>
+<instance part="R70" gate="G$1" x="83.82" y="149.86" smashed="yes" rot="R90">
+<attribute name="NAME" x="82.3214" y="146.05" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="87.122" y="146.05" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="D7" gate="1" x="76.2" y="149.86" smashed="yes" rot="R90">
+<attribute name="NAME" x="75.7174" y="152.4" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="78.5114" y="152.4" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="U2" gate="A" x="-55.88" y="114.3" smashed="yes">
+<attribute name="NAME" x="-50.8" y="114.3" size="1.778" layer="95" rot="R180"/>
+</instance>
+<instance part="U$5" gate="G$1" x="-73.66" y="106.68" smashed="yes">
+<attribute name="NAME" x="-83.82" y="109.093" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-83.82" y="106.68" size="1.778" layer="96"/>
+</instance>
+<instance part="R68" gate="G$1" x="-93.98" y="104.14" smashed="yes">
+<attribute name="NAME" x="-97.79" y="105.6386" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-97.79" y="100.838" size="1.778" layer="96"/>
+</instance>
+<instance part="R71" gate="G$1" x="-78.74" y="88.9" smashed="yes" rot="R270">
+<attribute name="NAME" x="-77.2414" y="92.71" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="-82.042" y="92.71" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="D8" gate="1" x="-68.58" y="129.54" smashed="yes" rot="R90">
+<attribute name="NAME" x="-69.0626" y="132.08" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-66.2686" y="132.08" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="U$7" gate="G$1" x="-40.64" y="121.92" smashed="yes">
+<attribute name="NAME" x="-33.02" y="119.38" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-35.56" y="116.84" size="1.778" layer="96"/>
+</instance>
+<instance part="D9" gate="1" x="-38.1" y="134.62" smashed="yes" rot="R90">
+<attribute name="NAME" x="-38.5826" y="137.16" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-35.7886" y="137.16" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R72" gate="G$1" x="-48.26" y="132.08" smashed="yes" rot="R90">
+<attribute name="NAME" x="-49.7586" y="128.27" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-44.958" y="128.27" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R73" gate="G$1" x="-27.94" y="134.62" smashed="yes" rot="R90">
+<attribute name="NAME" x="-29.4386" y="130.81" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-24.638" y="130.81" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R74" gate="G$1" x="73.66" y="68.58" smashed="yes" rot="R90">
+<attribute name="NAME" x="72.1614" y="64.77" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="76.962" y="64.77" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -29324,6 +29378,19 @@ A circuit that controls the driver for the solenoid.</description>
 <junction x="162.56" y="38.1"/>
 <pinref part="U$1" gate="G$1" pin="S"/>
 </segment>
+<segment>
+<pinref part="R71" gate="G$1" pin="2"/>
+<wire x1="-78.74" y1="83.82" x2="-68.58" y2="83.82" width="0.1524" layer="91"/>
+<label x="-27.94" y="83.82" size="1.778" layer="95"/>
+<pinref part="U$5" gate="G$1" pin="S"/>
+<wire x1="-68.58" y1="83.82" x2="-38.1" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="-38.1" y1="83.82" x2="-27.94" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="-68.58" y1="104.14" x2="-68.58" y2="83.82" width="0.1524" layer="91"/>
+<junction x="-68.58" y="83.82"/>
+<pinref part="U$7" gate="G$1" pin="S"/>
+<wire x1="-38.1" y1="116.84" x2="-38.1" y2="83.82" width="0.1524" layer="91"/>
+<junction x="-38.1" y="83.82"/>
+</segment>
 </net>
 <net name="CTRL_SOLENOID_1" class="0">
 <segment>
@@ -29334,17 +29401,25 @@ A circuit that controls the driver for the solenoid.</description>
 </net>
 <net name="+12V" class="0">
 <segment>
-<wire x1="78.74" y1="167.64" x2="78.74" y2="165.1" width="0.1524" layer="91"/>
-<label x="78.74" y="162.56" size="1.778" layer="95"/>
+<wire x1="66.04" y1="167.64" x2="66.04" y2="165.1" width="0.1524" layer="91"/>
+<label x="66.04" y="162.56" size="1.778" layer="95"/>
 <pinref part="D2" gate="1" pin="C"/>
-<wire x1="78.74" y1="165.1" x2="78.74" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="165.1" x2="66.04" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="160.02" x2="93.98" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="165.1" x2="78.74" y2="165.1" width="0.1524" layer="91"/>
-<junction x="78.74" y="165.1"/>
-<wire x1="93.98" y1="165.1" x2="114.3" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="165.1" x2="83.82" y2="165.1" width="0.1524" layer="91"/>
+<junction x="66.04" y="165.1"/>
+<wire x1="83.82" y1="165.1" x2="76.2" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="165.1" x2="66.04" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="165.1" x2="106.68" y2="165.1" width="0.1524" layer="91"/>
 <junction x="93.98" y="165.1"/>
 <pinref part="R66" gate="G$1" pin="2"/>
-<wire x1="114.3" y1="165.1" x2="114.3" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="165.1" x2="106.68" y2="162.56" width="0.1524" layer="91"/>
+<pinref part="D7" gate="1" pin="C"/>
+<wire x1="76.2" y1="152.4" x2="76.2" y2="165.1" width="0.1524" layer="91"/>
+<junction x="76.2" y="165.1"/>
+<pinref part="R70" gate="G$1" pin="2"/>
+<wire x1="83.82" y1="154.94" x2="83.82" y2="165.1" width="0.1524" layer="91"/>
+<junction x="83.82" y="165.1"/>
 </segment>
 <segment>
 <wire x1="182.88" y1="167.64" x2="182.88" y2="165.1" width="0.1524" layer="91"/>
@@ -29360,13 +29435,13 @@ A circuit that controls the driver for the solenoid.</description>
 <wire x1="215.9" y1="165.1" x2="215.9" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="73.66" y1="86.36" x2="73.66" y2="83.82" width="0.1524" layer="91"/>
-<label x="73.66" y="81.28" size="1.778" layer="95"/>
+<wire x1="73.66" y1="99.06" x2="73.66" y2="96.52" width="0.1524" layer="91"/>
+<label x="73.66" y="93.98" size="1.778" layer="95"/>
 <pinref part="D4" gate="1" pin="C"/>
-<wire x1="73.66" y1="83.82" x2="73.66" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="76.2" x2="83.82" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="83.82" x2="73.66" y2="83.82" width="0.1524" layer="91"/>
-<junction x="73.66" y="83.82"/>
+<wire x1="73.66" y1="96.52" x2="73.66" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="88.9" x2="83.82" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="96.52" x2="73.66" y2="96.52" width="0.1524" layer="91"/>
+<junction x="73.66" y="96.52"/>
 </segment>
 <segment>
 <wire x1="162.56" y1="91.44" x2="162.56" y2="88.9" width="0.1524" layer="91"/>
@@ -29378,14 +29453,28 @@ A circuit that controls the driver for the solenoid.</description>
 <junction x="162.56" y="88.9"/>
 </segment>
 <segment>
-<pinref part="R70" gate="G$1" pin="1"/>
-<wire x1="83.82" y1="119.38" x2="83.82" y2="114.3" width="0.1524" layer="91"/>
-<label x="83.82" y="114.3" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="R69" gate="G$1" pin="1"/>
 <wire x1="185.42" y1="119.38" x2="185.42" y2="114.3" width="0.1524" layer="91"/>
 <label x="185.42" y="114.3" size="1.778" layer="95"/>
+</segment>
+<segment>
+<label x="-78.74" y="139.7" size="1.778" layer="95"/>
+<pinref part="D8" gate="1" pin="C"/>
+<wire x1="-68.58" y1="132.08" x2="-68.58" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="-68.58" y1="142.24" x2="-78.74" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="-68.58" y1="142.24" x2="-48.26" y2="142.24" width="0.1524" layer="91"/>
+<junction x="-68.58" y="142.24"/>
+<pinref part="R72" gate="G$1" pin="2"/>
+<wire x1="-48.26" y1="142.24" x2="-38.1" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="-48.26" y1="137.16" x2="-48.26" y2="142.24" width="0.1524" layer="91"/>
+<junction x="-48.26" y="142.24"/>
+<pinref part="D9" gate="1" pin="C"/>
+<wire x1="-38.1" y1="137.16" x2="-38.1" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="-78.74" y1="142.24" x2="-78.74" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="-38.1" y1="142.24" x2="-27.94" y2="142.24" width="0.1524" layer="91"/>
+<junction x="-38.1" y="142.24"/>
+<pinref part="R73" gate="G$1" pin="2"/>
+<wire x1="-27.94" y1="142.24" x2="-27.94" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -29434,17 +29523,32 @@ A circuit that controls the driver for the solenoid.</description>
 <wire x1="43.18" y1="53.34" x2="35.56" y2="53.34" width="0.1524" layer="91"/>
 <label x="17.78" y="50.8" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="R68" gate="G$1" pin="1"/>
+<wire x1="-99.06" y1="104.14" x2="-106.68" y2="104.14" width="0.1524" layer="91"/>
+<label x="-124.46" y="101.6" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SOLENOID_3_NEGATIVE" class="0">
 <segment>
-<pinref part="U$9" gate="G$1" pin="D"/>
-<wire x1="73.66" y1="58.42" x2="73.66" y2="66.04" width="0.1524" layer="91"/>
-<label x="73.66" y="68.58" size="1.778" layer="95"/>
+<label x="73.66" y="81.28" size="1.778" layer="95"/>
 <pinref part="D4" gate="1" pin="A"/>
-<wire x1="73.66" y1="66.04" x2="73.66" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="66.04" x2="83.82" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="66.04" x2="83.82" y2="71.12" width="0.1524" layer="91"/>
-<junction x="73.66" y="66.04"/>
+<wire x1="73.66" y1="78.74" x2="73.66" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="78.74" x2="83.82" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="78.74" x2="83.82" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="R74" gate="G$1" pin="2"/>
+<wire x1="73.66" y1="73.66" x2="73.66" y2="78.74" width="0.1524" layer="91"/>
+<junction x="73.66" y="78.74"/>
+</segment>
+<segment>
+<label x="-91.44" y="116.84" size="1.778" layer="95"/>
+<pinref part="D8" gate="1" pin="A"/>
+<wire x1="-73.66" y1="119.38" x2="-73.66" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="-73.66" y1="119.38" x2="-68.58" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="-68.58" y1="119.38" x2="-68.58" y2="127" width="0.1524" layer="91"/>
+<pinref part="U2" gate="A" pin="O"/>
+<wire x1="-68.58" y1="119.38" x2="-58.42" y2="119.38" width="0.1524" layer="91"/>
+<junction x="-68.58" y="119.38"/>
 </segment>
 </net>
 <net name="N$14" class="0">
@@ -29479,8 +29583,13 @@ A circuit that controls the driver for the solenoid.</description>
 <net name="N$61" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="D"/>
-<wire x1="71.12" y1="129.54" x2="83.82" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="R70" gate="G$1" pin="2"/>
+<wire x1="71.12" y1="129.54" x2="76.2" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="D7" gate="1" pin="A"/>
+<wire x1="76.2" y1="147.32" x2="76.2" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="R70" gate="G$1" pin="1"/>
+<wire x1="83.82" y1="144.78" x2="83.82" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="129.54" x2="76.2" y2="129.54" width="0.1524" layer="91"/>
+<junction x="76.2" y="129.54"/>
 <pinref part="U$6" gate="G$1" pin="G"/>
 <wire x1="83.82" y1="129.54" x2="88.9" y2="129.54" width="0.1524" layer="91"/>
 <junction x="83.82" y="129.54"/>
@@ -29490,13 +29599,13 @@ A circuit that controls the driver for the solenoid.</description>
 <segment>
 <pinref part="U$6" gate="G$1" pin="D"/>
 <wire x1="93.98" y1="137.16" x2="93.98" y2="147.32" width="0.1524" layer="91"/>
-<label x="78.74" y="144.78" size="1.778" layer="95"/>
+<label x="93.98" y="144.78" size="1.778" layer="95"/>
 <pinref part="D2" gate="1" pin="A"/>
 <wire x1="93.98" y1="147.32" x2="93.98" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="147.32" x2="114.3" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="147.32" x2="106.68" y2="147.32" width="0.1524" layer="91"/>
 <junction x="93.98" y="147.32"/>
 <pinref part="R66" gate="G$1" pin="1"/>
-<wire x1="114.3" y1="147.32" x2="114.3" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="147.32" x2="106.68" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$63" class="0">
@@ -29507,6 +29616,52 @@ A circuit that controls the driver for the solenoid.</description>
 <junction x="185.42" y="129.54"/>
 <pinref part="U$8" gate="G$1" pin="D"/>
 <wire x1="172.72" y1="129.54" x2="185.42" y2="129.54" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$62" class="0">
+<segment>
+<pinref part="R68" gate="G$1" pin="2"/>
+<pinref part="U$5" gate="G$1" pin="G"/>
+<wire x1="-88.9" y1="104.14" x2="-78.74" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="R71" gate="G$1" pin="1"/>
+<wire x1="-78.74" y1="93.98" x2="-78.74" y2="104.14" width="0.1524" layer="91"/>
+<junction x="-78.74" y="104.14"/>
+</segment>
+</net>
+<net name="N$64" class="0">
+<segment>
+<pinref part="U$5" gate="G$1" pin="D"/>
+<pinref part="U2" gate="A" pin="P"/>
+<wire x1="-55.88" y1="109.22" x2="-68.58" y2="109.22" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$65" class="0">
+<segment>
+<pinref part="U2" gate="A" pin="S"/>
+<pinref part="U$7" gate="G$1" pin="G"/>
+<wire x1="-53.34" y1="119.38" x2="-48.26" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="-48.26" y1="119.38" x2="-43.18" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="-48.26" y1="119.38" x2="-48.26" y2="127" width="0.1524" layer="91"/>
+<junction x="-48.26" y="119.38"/>
+<pinref part="R72" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$66" class="0">
+<segment>
+<pinref part="D9" gate="1" pin="A"/>
+<pinref part="U$7" gate="G$1" pin="D"/>
+<wire x1="-38.1" y1="132.08" x2="-38.1" y2="127" width="0.1524" layer="91"/>
+<wire x1="-38.1" y1="127" x2="-27.94" y2="127" width="0.1524" layer="91"/>
+<junction x="-38.1" y="127"/>
+<pinref part="R73" gate="G$1" pin="1"/>
+<wire x1="-27.94" y1="127" x2="-27.94" y2="129.54" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$67" class="0">
+<segment>
+<pinref part="R74" gate="G$1" pin="1"/>
+<pinref part="U$9" gate="G$1" pin="D"/>
+<wire x1="73.66" y1="63.5" x2="73.66" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
